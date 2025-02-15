@@ -29,6 +29,7 @@ export class ApiService {
   
       // Get the top 3 tokens
       return sortedTokens.slice(0, 3).map(token => ({
+        mydaughter:"Ayesha and Aleena",
         name: token.token_name,
         price: token.price,
         volumeChange: token.volume_change_24h,
